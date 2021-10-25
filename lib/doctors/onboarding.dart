@@ -17,7 +17,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
         children: [
           Container(
             margin: EdgeInsets.only(top: 100, left: 15, right: 15),
-            width: MediaQuery.of(context).size.width,
+            width: MediaQuery.of(context).size.width,//
             height: 200,
             decoration: BoxDecoration(
                 image: DecorationImage(
